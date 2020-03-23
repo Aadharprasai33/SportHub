@@ -24,7 +24,7 @@ namespace sporthub.Models
             if (!optionsBuilder.IsConfigured)
             {
 
-                optionsBuilder.UseSqlServer("Server=DESKTOP-7GOI3OO;Database=SportHub;Trusted_Connection=True;");
+                optionsBuilder.UseSqlServer("Server=DESKTOP-7GOI3OO;database=SportHub;Trusted_Connection=True;");
             }
         }
 

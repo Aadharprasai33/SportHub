@@ -10,7 +10,7 @@ import * as jwt_decode from 'jwt-decode';
 
 export class AuthService {
     baseUrl = 'http://localhost:5000/api/auth/';
-    valueControl = 'http://localhost:5000/api/user/'
+    valueControl = 'http://localhost:5000/api/user/';
 
     constructor(private http: HttpClient) { }
 
